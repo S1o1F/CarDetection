@@ -1,0 +1,17 @@
+# virtual environment
+.venv/
+# PowerPoint presentation
+prezentacija_dpns.pptx
+
+# Documentation files
+ДОКУМЕНТАЦИЈА.docx
+ДОКУМЕНТАЦИЈА.pdf
+
+# YOLO model weights (very important)
+yolov8n.pt
+
+#videos
+videos/
+
+#idea
+.idea/
