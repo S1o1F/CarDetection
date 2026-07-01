@@ -21,26 +21,22 @@ pip install -r requirements.txt
 ### Основна употреба
 
 ```bash
-# Ако видеото е во videos папката
-python vehicle_detection.py --video videos/input_video.mp4
-
-# Или со релативна патека
-python vehicle_detection.py --video videos\input_video.mp4
+python vehicle_detection.py --video path/to/your/video.mp4
 ```
 
 ```bash
 
 # Со зачувување на излезното видео
-python vehicle_detection.py --video videos/input_video.mp4 --output output.mp4
+python vehicle_detection.py --video path/to/your/video.mp4 --output output.mp4
 
 # Со прилагодена линија за броење (60% од висината)
-python vehicle_detection.py --video videos/input_video.mp4 --line 0.6
+python vehicle_detection.py --video path/to/your/video.mp4 --line 0.6
 
 # Со повисок confidence threshold
-python vehicle_detection.py --video videos/input_video.mp4 --confidence 0.7
+python vehicle_detection.py --video path/to/your/video.mp4 --confidence 0.7
 
 # Без прикажување на видеото
-python vehicle_detection.py --video videos/input_video.mp4 --no-display
+python vehicle_detection.py --video path/to/your/video.mp4 --no-display
 ```
 
 
